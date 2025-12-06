@@ -1,5 +1,6 @@
 @import url(./header.css);
 @import url(./main.css);
+@import url(./footer.css);
 
 :root {
     --bg-color: #0A0A0A;
@@ -9,9 +10,18 @@
     --special-hover: #116466;
 }
 
+* {
+    transition: all 0.2s ease;
+    margin: 0;
+}
+
 body {
     color: var(--font-color);
     background-color: var(--bg-color);
+}
+
+section {
+    padding: 50px 0;
 }
 
 a {
