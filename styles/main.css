@@ -68,6 +68,11 @@
 /* second section */
 
 .search {
+    display: flex;
+    justify-content: center;
+}
+
+.search__container {
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -75,7 +80,7 @@
     align-items: center;
 }
 
-.search__cont {
+.search__label {
     width: 80%;
     background-color: var(--components-bg);
 
@@ -92,6 +97,11 @@
 /* third section */
 
 .suggestions {
+    display: flex;
+    justify-content: center;
+}
+
+.suggestions__container {
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -133,6 +143,11 @@
 /* fourth section*/
 
 .popular {
+    display: flex;
+    justify-content: center;
+}
+
+.popular__container {
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -204,7 +219,12 @@
 }
 
 .partners {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.partners__container {
+    width: 90%;
     overflow: hidden;
     display: flex;
     flex-direction: column;
