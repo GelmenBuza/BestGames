@@ -1,0 +1,158 @@
+/* first section*/
+.new {
+    width: 90%;
+}
+
+.new__title {
+
+}
+
+.game-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: var(--components-bg);
+}
+
+.game-card__img {
+    width: 80%;
+    object-fit: cover;
+}
+
+.game-card__title {
+
+}
+
+.game-card__price {
+
+}
+
+.game-card__info {
+
+}
+
+/* second section */
+
+.search {
+    width: 90%;
+}
+
+.search__cont {
+    width: 80%;
+    background-color: var(--components-bg);
+}
+
+.search__btn {
+
+}
+
+/* third section */
+
+.suggestions {
+    width: 90%;
+}
+
+.suggestions__title {
+
+}
+
+.suggestions__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+    gap: 20px;
+}
+
+.suggestion {
+    background-color: var(--components-bg);
+    width: 200px;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.suggestion__img {
+    width: 20%;
+}
+
+.suggestion__title {
+
+}
+
+/* fourth section*/
+
+.popular {
+    width: 90%;
+}
+
+.popular__title {
+
+}
+
+.popular__list {
+    display: flex;
+    width: 650px;
+    gap: 10px;
+}
+
+.game {
+    width: 200px;
+    background-color: var(--components-bg);
+    border-radius: 10px;
+    border: 1px solid var(--components-bg);
+}
+
+.game:hover {
+    border: 1px solid var(--special-hover);
+}
+
+.game__img {
+    height: 40%;
+}
+
+.game__title {
+
+}
+
+.game__genre {
+
+}
+
+.game__dev {
+
+}
+
+.game__stars {
+    display: flex;
+}
+
+/* fifth section */
+
+@keyframes run_partners {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.partners {
+    width: 100%;
+    overflow: hidden;
+}
+
+.partners__title {
+
+}
+
+.partners__list {
+    display: flex;
+    animation: run_partners 10s linear infinite;
+    align-items: center;
+}
+
+.partner {
+
+}

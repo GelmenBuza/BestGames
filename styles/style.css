@@ -1,0 +1,36 @@
+@import url(./header.css);
+@import url(./main.css);
+
+:root {
+    --bg-color: #0A0A0A;
+    --components-bg: #121212;
+    --font-color: #FEFDFB;
+    --special-color: #FF4500;
+    --special-hover: #116466;
+}
+
+body {
+    color: var(--font-color);
+    background-color: var(--bg-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--special-color);
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+    color: var(--special-hover);
+}
+
+button {
+    background-color: var(--special-color);
+    color: var(--font-color);
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover, button:focus {
+    background-color: var(--special-hover);
+}

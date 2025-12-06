@@ -1,0 +1,33 @@
+.footer {
+    background-color: var(--components-bg);
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    div {
+        width: 400px;
+    }
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+}
+
+.footer__item {
+
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+}
+
+.footer__title {
+
+}
