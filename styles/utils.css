@@ -1,0 +1,27 @@
+.df {
+    display: flex;
+}
+
+.fdc {
+    flex-direction: column;
+}
+
+.aic {
+    align-items: center;
+}
+
+.ais {
+    align-items: start;
+}
+
+.jcb {
+    justify-content: space-between;
+}
+
+.jce {
+    justify-content: space-evenly;
+}
+
+.jcc {
+    justify-content: center;
+}
