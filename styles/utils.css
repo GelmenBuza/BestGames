@@ -25,3 +25,11 @@
 .jcc {
     justify-content: center;
 }
+
+.g50 {
+    gap: 50px;
+}
+
+.g20 {
+    gap: 20px;
+}

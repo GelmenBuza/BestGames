@@ -2,6 +2,12 @@
 @import url(./main.css);
 @import url(./footer.css);
 @import url(./utils.css);
+@import url(./auth.css);
+@import url(./registration.css);
+@import url(./form.css);
+@import url(./profile.css);
+@import url(./catalog.css);
+@import url(./admin.css);
 
 :root {
     --bg-color: #0A0A0A;
@@ -58,6 +64,18 @@ input {
     padding: 10px 15px;
     outline: none;
 }
+
+textarea {
+    color: var(--font-color);
+    background-color: var(--components-bg);
+    border: 1px solid var(--components-bg);
+    border-radius: 10px;
+    min-width: 300px;
+    min-height: 40px;
+    padding: 10px 15px;
+    outline: none;
+}
+
 
 input:focus, input:hover {
     border-color: var(--special-hover);

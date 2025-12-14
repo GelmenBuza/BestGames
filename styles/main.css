@@ -1,8 +1,5 @@
 /* first section*/
 .new {
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*align-items: center;*/
     text-align: center;
 }
 
@@ -12,16 +9,10 @@
 
 .new__container {
     width: 90%;
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*align-items: center;*/
     position: relative;
 }
 
 .game-card {
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*justify-content: space-evenly;*/
     width: 600px;
     height: 500px;
 }
@@ -34,9 +25,6 @@
 .game-card__desc {
     position: absolute;
     width: 300px;
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*align-items: start;*/
     gap: 10px;
     background-color: var(--components-bg);
     border-radius: 20px;
@@ -68,15 +56,10 @@
 /* second section */
 
 .search {
-    /*display: flex;*/
-    /*justify-content: center;*/
 }
 
 .search__container {
     width: 90%;
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*align-items: center;*/
     gap: 10px;
 }
 
@@ -97,15 +80,11 @@
 /* third section */
 
 .suggestions {
-    /*display: flex;*/
-    /*justify-content: center;*/
+
 }
 
 .suggestions__container {
     width: 90%;
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*align-items: center;*/
     gap: 20px;
 }
 
@@ -114,17 +93,13 @@
 }
 
 .suggestions__list {
-    /*display: flex;*/
-    /*justify-content: center;*/
     flex-wrap: wrap;
     width: 500px;
     gap: 20px;
 }
 
 .suggestion {
-    /*display: flex;*/
-    /*justify-content: space-between;*/
-    /*align-items: center;*/
+
     background-color: var(--components-bg);
     width: 200px;
     height: 75px;
@@ -143,15 +118,10 @@
 /* fourth section*/
 
 .popular {
-    /*display: flex;*/
-    /*justify-content: center;*/
 }
 
 .popular__container {
     width: 90%;
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*align-items: center;*/
     gap: 50px;
 }
 
@@ -160,8 +130,6 @@
 }
 
 .popular__list {
-    /*display: flex;*/
-    /*justify-content: center;*/
     flex-wrap: wrap;
     width: 650px;
     gap: 10px;
@@ -169,10 +137,6 @@
 
 .game {
     box-sizing: border-box;
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*align-items: center;*/
-    /*justify-content: space-between;*/
     width: 200px;
     height: 300px;
     padding: 10px;
@@ -203,7 +167,6 @@
 }
 
 .game__stars {
-    /*display: flex;*/
     height: 20px;
     gap: 5px;
 }
@@ -220,16 +183,13 @@
 }
 
 .partners {
-    /*display: flex;*/
-    /*justify-content: center;*/
+
 }
 
 .partners__container {
     width: 90%;
     overflow: hidden;
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*align-items: center;*/
+
 }
 
 .partners__title {
@@ -237,8 +197,6 @@
 }
 
 .partners__list {
-    /*display: flex;*/
-    /*align-items: center;*/
     animation: run_partners 10s linear infinite;
     gap: 30px;
 }

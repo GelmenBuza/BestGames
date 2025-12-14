@@ -1,0 +1,40 @@
+.profile {
+    min-height: 100vh;
+}
+
+.profile__info {
+
+}
+
+.profile__info-item {
+
+}
+
+.profile__history {
+}
+
+.profile__purchase {
+    background-color: var(--components-bg);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.profile__purchase-date {
+
+}
+
+.profile__purchase-name {
+
+}
+
+.profile__purchase-price {
+
+}
+
+.profile__settings {
+
+}
+
+.profile__settings-btn {
+
+}
