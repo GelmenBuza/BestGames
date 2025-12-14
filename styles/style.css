@@ -80,3 +80,13 @@ textarea {
 input:focus, input:hover {
     border-color: var(--special-hover);
 }
+
+@media (max-width: 360px) {
+    input {
+        border-radius: 10px;
+        min-width: 150px;
+        min-height: 20px;
+        padding: 5px 7px;
+        outline: none;
+    }
+}

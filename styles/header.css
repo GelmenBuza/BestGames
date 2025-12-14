@@ -1,14 +1,41 @@
 .header {
-    background-color: var(--components-bg);
     padding: 10px;
 }
 
+
 .nav {
-    width: 90%;
-    display: flex;
+    width: 100%;
+    background-color: var(--components-bg);
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav__item {
 
+}
+
+.show-menu {
+    display: none;
+}
+.menu-toggle {
+    display: none;
+}
+
+@media (max-width: 360px) {
+    .show-menu {
+        display: block;
+        width: 20px;
+    }
+    .menu-toggle:checked ~ .nav  {
+        padding: 10px;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        border-radius: 20px;
+    }
+    .nav {
+        display: none;
+    }
 }
